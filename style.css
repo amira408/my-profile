@@ -1,0 +1,75 @@
+body {
+            font-family: 'Arial', sans-serif;
+            color: #425365;
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .profile-section, .education-section, .hobbies-section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            color: #4CBB17; /* Vert Kelly */
+            font-size: 32px;
+            font-weight: 900;
+        }
+
+        h2 {
+            color: #50C878; /* Vert émeraude */
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        h3 {
+            color: #008000; /* Vert classique */
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .button {
+            background-color: #00A86B; /* Vert jade */
+            color: #FFFFFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #98FF98; /* Vert menthe */
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-links li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .social-links a {
+            color: #425365;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #B157DF;
+        }
+
+        @media (max-width: 500px) {
+            body {
+                padding: 10px;
+            }
+        }
+
+
+    </style>
